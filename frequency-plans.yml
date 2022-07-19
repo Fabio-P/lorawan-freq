@@ -24,6 +24,14 @@
   country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
   file: EU_863_870_ROAMING_DRAFT.yml
 
+- id: MA_869_870_DRAFT
+  band-id: MA_869_870
+  name: Morocco 863-870 MHz (SF12 for RX2)
+  description: Default frequency plan for Morocco
+  base-frequency: 869
+  country-codes: [ma]
+  file: MA_869_870_DRAFT.yml
+
 - id: EU_433
   band-id: EU_433
   name: Europe 433 MHz (ITU region 1)
