@@ -3,12 +3,16 @@ uplink-channels:
 - frequency: 869100000
   min-data-rate: 0
   max-data-rate: 5
-  radio: 1
+  radio: 0
 - frequency: 869300000
   min-data-rate: 0
   max-data-rate: 5
-  radio: 1
+  radio: 0
 - frequency: 869700000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 869900000
   min-data-rate: 0
   max-data-rate: 5
   radio: 1
@@ -22,6 +26,9 @@ downlink-channels:
 - frequency: 869700000
   min-data-rate: 0
   max-data-rate: 5
+- frequency: 869900000
+  min-data-rate: 0
+  max-data-rate: 5
 radios:
 - enable: true
   chip-type: SX1257
@@ -30,9 +37,9 @@ radios:
   tx:
     min-frequency: 869000000
     max-frequency: 870000000
-- enable: false
+- enable: true
   chip-type: SX1257
-  frequency: 868500000
+  frequency: 869900000
   rssi-offset: -166
 clock-source: 1
 rx2-default-data-rate: 3
