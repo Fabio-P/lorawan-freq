@@ -1,4 +1,4 @@
-band-id: MA_869_870_DRAFT
+band-id: MA_869_870
 uplink-channels:
 - frequency: 869100000
   min-data-rate: 0
