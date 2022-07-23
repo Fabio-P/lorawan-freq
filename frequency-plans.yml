@@ -28,9 +28,17 @@
   band-id: EU_863_870
   name: Morocco 869-870 MHz 
   description: Draft frequency plan for Morocco
-  base-frequency: 869
+  base-frequency: 868
   country-codes: [ma]
   file: MA_869_870_DRAFT.yml
+
+- id:  MA_868_870_DRAFT
+  band-id: EU_863_870
+  name: Morocco 868-870 MHz DRAFT2
+  description: Draft 2 frequency plan for Morocco
+  base-frequency: 868
+  country-codes: [ma]
+  file:  MA_868_870_DRAFT.yml
 
 - id: EU_433
   band-id: EU_433
